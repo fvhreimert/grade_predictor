@@ -28,11 +28,11 @@ body, html {
 /* Glow effect for the crystal ball */
 .crystal-ball {
     position: absolute;
-    top: 76%; /* Keep it centered */
+    top: 78%; /* Keep it centered */
     left: 51%;
     transform: translate(-50%, -50%);
-    width: 330vw; /* Scale dynamically */
-    max-width: 330px; /* Limit max size */
+    width: 400vw; /* Scale dynamically */
+    max-width: 400px; /* Limit max size */
     height: auto;
     z-index: 2; /* Middle layer */
     filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.8)) 
@@ -64,7 +64,7 @@ body, html {
 /* Prediction text appears centered over the crystal ball */
 .prediction-text {
     position: absolute;
-    top: 68%; /* Moves it directly above the crystal ball */
+    top: 73%; /* Moves it directly above the crystal ball */
     left: 51%;
     transform: translate(-50%, -50%);
     color: rgb(208, 78, 17);
